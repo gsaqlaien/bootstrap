@@ -19,7 +19,20 @@ body {
 .navigation {
     height: 80px;
 }
-
+.new-web {
+    height: 100vh;
+}
 .banner {
     min-height: calc(100vh - 80px);
+}
+
+.stop-writing {
+    margin:0;
+    background-image:url("images/background.png");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-color: rgba(0,0,0,0.25);
+    background-blend-mode: overlay;
+    height: 100vh;
+    
 }
